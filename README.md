@@ -14,8 +14,3 @@ a customizable, tui-style discord theme. inspired by [spicetify text theme](http
 2. drag `system24.theme.css` into your theme folder. (there should be a button to open the theme folder in theme settings)
 3. (optional) customize the theme by opening `system24.theme.css` and editing the CSS variables within.
 
-## credits
-
-[spicetify text theme](https://github.com/spicetify/spicetify-themes/tree/master/text) for primary design inspiration.
-
-thanks to all the [contributors](https://github.com/refact0r/system24/graphs/contributors)!

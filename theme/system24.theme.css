@@ -1,7 +1,7 @@
 /**
- * @name system24
- * @description a tui-style discord theme.
- * @author refact0r
+ * @name system24-cyber
+ * @description a tui-style discord theme with a cyberpunk twist.
+ * @author refact0r (modified)
  * @version 2.1.0
  * @invite nz87hXyvcy
  * @website https://github.com/refact0r/system24
@@ -84,81 +84,81 @@ body {
     --label-font-weight: 500; /* font weight of labels */
 }
 
-/* color options */
+/* color options: Cyberpunk Edition */
 :root {
-    --colors: on; /* off: discord default colors, on: midnight custom colors */
+    --colors: on;
 
-    /* text colors */
-    --text-0: var(--bg-4); /* text on colored elements */
-    --text-1: oklch(95% 0 0); /* other normally white text */
-    --text-2: oklch(85% 0 0); /* headings and important text */
-    --text-3: oklch(75% 0 0); /* normal text */
-    --text-4: oklch(60% 0 0); /* icon buttons and channels */
-    --text-5: oklch(40% 0 0); /* muted channels/chats and timestamps */
+    /* text colors (Clear & crisp, easy on eyes) */
+    --text-0: var(--bg-4);
+    --text-1: oklch(95% 0.01 220); 
+    --text-2: oklch(88% 0.02 210); 
+    --text-3: oklch(78% 0.03 210); 
+    --text-4: oklch(62% 0.04 210); 
+    --text-5: oklch(42% 0.04 210); 
 
-    /* background and dark colors */
-    --bg-1: oklch(31% 0 0); /* dark buttons when clicked */
-    --bg-2: oklch(27% 0 0); /* dark buttons */
-    --bg-3: oklch(23% 0 0); /* spacing, secondary elements */
-    --bg-4: oklch(19% 0 0); /* main background color */
-    --hover: oklch(54% 0 0 / 0.1); /* channels and buttons when hovered */
-    --active: oklch(54% 0 0 / 0.2); /* channels and buttons when clicked or selected */
-    --active-2: oklch(54% 0 0 / 0.3); /* extra state for transparent buttons */
-    --message-hover: var(--hover); /* messages when hovered */
+    /* background and dark colors (Deep Cyber Blue/Black) */
+    --bg-1: oklch(25% 0.03 240); 
+    --bg-2: oklch(21% 0.03 240); 
+    --bg-3: oklch(17% 0.03 240); 
+    --bg-4: oklch(13% 0.03 240); /* Main dark background */
+    --hover: oklch(60% 0.12 210 / 0.12); 
+    --active: oklch(60% 0.15 210 / 0.25); 
+    --active-2: oklch(60% 0.15 210 / 0.35); 
+    --message-hover: var(--hover);
 
-    /* accent colors */
-    --accent-1: var(--purple-1); /* links and other accent text */
-    --accent-2: var(--purple-2); /* small accent elements */
-    --accent-3: var(--purple-3); /* accent buttons */
-    --accent-4: var(--purple-4); /* accent buttons when hovered */
-    --accent-5: var(--purple-5); /* accent buttons when clicked */
-    --accent-new: var(--red-2); /* stuff that's normally red like mute/deafen buttons */
-    --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
-    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */
-    --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent); /* background of messages that reply to you */
-    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent); /* background of messages that reply to you when hovered */
+    /* accent colors (Cyber Cyan & Neon Pink) */
+    --accent-1: var(--blue-2); 
+    --accent-2: var(--blue-1); /* Cyan highlights */
+    --accent-3: var(--blue-2); 
+    --accent-4: var(--blue-1); 
+    --accent-5: var(--blue-3); 
+    --accent-new: var(--red-2); 
+    --mention: linear-gradient(to right, color-mix(in hsl, var(--blue-2), transparent 85%) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--blue-2), transparent 90%) 40%, transparent);
+    --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent);
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent);
 
     /* status indicator colors */
-    --online: var(--green-2); /* change to #40a258 for default */
-    --dnd: var(--red-2); /* change to #d83a41 for default */
-    --idle: var(--yellow-2); /* change to #cc954c for default */
-    --streaming: var(--purple-2); /* change to ##9147ff for default */
-    --offline: var(--text-4); /* change to #82838b for default offline color */
+    --online: var(--green-2); 
+    --dnd: var(--red-2); 
+    --idle: var(--yellow-2); 
+    --streaming: var(--purple-2); 
+    --offline: var(--text-4); 
 
     /* border colors */
-    --border-light: var(--hover); /* general light border color */
-    --border: var(--active); /* general normal border color */
-    --border-hover: var(--accent-2); /* border color of panels when hovered */
-    --button-border: hsl(220, 0%, 100%, 0.1); /* neutral border color of buttons */
+    --border-light: var(--hover); 
+    --border: var(--active); 
+    --border-hover: var(--blue-1); /* Border turns neon cyan when hovered */
+    --button-border: hsl(200, 30%, 50%, 0.15); 
 
-    /* base colors */
-    --red-1: oklch(75% 0.13 0);
-    --red-2: oklch(70% 0.13 0);
-    --red-3: oklch(65% 0.13 0);
-    --red-4: oklch(60% 0.13 0);
-    --red-5: oklch(55% 0.13 0);
+    /* base cyberpunk palette (Cyan, Magenta, Lime, Amber) */
+    --red-1: oklch(75% 0.18 20);
+    --red-2: oklch(68% 0.18 20);
+    --red-3: oklch(60% 0.18 20);
+    --red-4: oklch(52% 0.18 20);
+    --red-5: oklch(45% 0.18 20);
 
-    --green-1: oklch(75% 0.12 170);
-    --green-2: oklch(70% 0.12 170);
-    --green-3: oklch(65% 0.12 170);
-    --green-4: oklch(60% 0.12 170);
-    --green-5: oklch(55% 0.12 160);
+    --green-1: oklch(80% 0.18 145); /* Cyber Lime */
+    --green-2: oklch(72% 0.18 145);
+    --green-3: oklch(65% 0.18 145);
+    --green-4: oklch(58% 0.18 145);
+    --green-5: oklch(50% 0.18 145);
 
-    --blue-1: oklch(75% 0.11 215);
-    --blue-2: oklch(70% 0.11 215);
-    --blue-3: oklch(65% 0.11 215);
-    --blue-4: oklch(60% 0.11 215);
-    --blue-5: oklch(55% 0.11 215);
+    --blue-1: oklch(80% 0.16 215); /* Neon Cyber Cyan */
+    --blue-2: oklch(72% 0.16 215);
+    --blue-3: oklch(65% 0.16 215);
+    --blue-4: oklch(58% 0.16 215);
+    --blue-5: oklch(50% 0.16 215);
 
-    --yellow-1: oklch(80% 0.12 90);
-    --yellow-2: oklch(75% 0.12 90);
-    --yellow-3: oklch(70% 0.12 90);
-    --yellow-4: oklch(65% 0.12 90);
-    --yellow-5: oklch(60% 0.12 90);
+    --yellow-1: oklch(85% 0.16 85); /* Cyber Amber */
+    --yellow-2: oklch(78% 0.16 85);
+    --yellow-3: oklch(70% 0.16 85);
+    --yellow-4: oklch(62% 0.16 85);
+    --yellow-5: oklch(55% 0.16 85);
 
-    --purple-1: oklch(75% 0.12 310);
-    --purple-2: oklch(70% 0.12 310);
-    --purple-3: oklch(65% 0.12 310);
-    --purple-4: oklch(60% 0.12 310);
-    --purple-5: oklch(55% 0.12 310);
+    --purple-1: oklch(78% 0.22 330); /* Cyber Neon Pink / Magenta */
+    --purple-2: oklch(70% 0.22 330);
+    --purple-3: oklch(62% 0.22 330);
+    --purple-4: oklch(55% 0.22 330);
+    --purple-5: oklch(48% 0.22 330);
 }

@@ -10,72 +10,13 @@ a customizable, tui-style discord theme. inspired by [spicetify text theme](http
 
 ### vencord/betterdiscord (or any client that supports theme files)
 
-1. download the theme file, [`system24.theme.css`](https://github.com/refact0r/system24/blob/main/theme/system24.theme.css). (there should be a download button at the top right of the page)
+1. download the theme file, [`system24.theme.css`](https://github.com/VoidSchema/system24-void/blob/main/theme/system24.theme.css). (there should be a download button at the top right of the page)
 2. drag `system24.theme.css` into your theme folder. (there should be a button to open the theme folder in theme settings)
 3. (optional) customize the theme by opening `system24.theme.css` and editing the CSS variables within.
 
 ### install through link
 
 add `https://refact0r.github.io/system24/build/system24.css` to your theme import links. you will need to copy the theme variables to your quickcss in order to customize the theme.
-
-## flavors
-
-flavors are preset customizations for system24.
-
-to use a flavor, follow the install instructions above but download the flavor theme file of your choice instead of `system24.theme.css`. click a flavor name below to open its theme file, or click a preview image to view it at full size.
-
-<table>
-    <tr>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-light.theme.css"><b>light</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/light.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/light.jpg"></a>
-        </td>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-auto.theme.css"><b>auto</b></a> (follows system theme)<br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/auto.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/auto.jpg"></a>
-        </td>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-catppuccin-mocha.theme.css"><b>catppuccin mocha</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/catppuccin-mocha.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/catppuccin-mocha.jpg"></a>
-        </td>
-    </tr>
-    <tr>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-catppuccin-macchiato.theme.css"><b>catppuccin macchiato</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/catppuccin-macchiato.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/catppuccin-macchiato.jpg"></a>
-        </td>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-everforest.theme.css"><b>everforest</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/everforest.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/everforest.jpg"></a>
-        </td>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-rose-pine.theme.css"><b>rose pine</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/rose-pine.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/rose-pine.jpg"></a>
-        </td>
-    </tr>
-    <tr>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-rose-pine-moon.theme.css"><b>rose pine moon</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/rose-pine-moon.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/rose-pine-moon.jpg"></a>
-        </td>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-tokyo-night.theme.css"><b>tokyo night</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/tokyo-night.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/tokyo-night.jpg"></a>
-        </td>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-nord.theme.css"><b>nord</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/nord.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/nord.jpg"></a>
-        </td>
-    </tr>
-    <tr>
-        <td width="33%">
-            <a href="https://github.com/refact0r/system24/blob/main/theme/flavors/system24-vencord.theme.css"><b>vencord</b></a><br>
-            <a href="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/vencord.png"><img src="https://raw.githubusercontent.com/refact0r/system24/main/assets/flavors/thumbs/vencord.jpg"></a>
-        </td>
-        <td width="33%"></td>
-        <td width="33%"></td>
-    </tr>
-</table>
 
 ## discord server
 
